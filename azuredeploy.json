@@ -73,6 +73,13 @@
       "metadata": {
         "description": "The Cosmos DB container name."
       }
+    },
+    "DatadogAPI": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "The Datadog API key used to send logs. Found here: https://app.datadoghq.com/account/settings#api"
+      }
     }
   },
   "variables": {
